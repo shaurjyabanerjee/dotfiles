@@ -21,6 +21,7 @@ alias .="cd .."
 alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ....="cd ../../../.."
+alias .....="cd ../../../../.."
 
 #Fix git typo
 alias gti="git"
@@ -30,7 +31,6 @@ alias gs="git status"
 
 #Fix rspec typo
 alias rspect="rspec"
-
 
 # add path to git-annex
 export PATH=/Applications/git-annex.app/Contents/MacOS:$PATH
